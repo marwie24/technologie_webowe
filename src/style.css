@@ -1,0 +1,74 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .table-container {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  .table-container tr {
+    position: relative;
+  }
+  
+  .table-container tr::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    border-top: 1px solid lightgrey;
+    
+  }
+ 
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  label {
+    margin-bottom: 5px;
+    text-align: left;
+    
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+ 
+  button {
+    width: 50px;
+    height: 20px;
+    outline: none;
+    color: white
+  }
+ .title {
+    text-align: left;
+    font-size: 20px;
+   }
+
+   .submit {
+    background-color: rgb(47, 131, 159);
+   }
+
+   .delete {
+    color: white;
+    background-color: orange;
+   }
+
+   .edit {
+    color: white;
+    background-color: rgb(196, 85, 85);
+    margin-left: 10px;
+   }
